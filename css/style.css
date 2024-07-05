@@ -54,7 +54,7 @@ button{
     height: 100%;
     background-color: rgba(0,0,0,0.5);
  }
-label{
+label,i{
     cursor: pointer;
 }
 i{
@@ -355,7 +355,7 @@ label:hover .one{
     bottom: -16%;
    width: 45%;
  }
- .landing .land-text{
+ .landing .over-lay .land-text{
     position: absolute;
     top: 55%;
     left: 33%;
@@ -367,17 +367,17 @@ label:hover .one{
     padding: 2rem;
     width: 50%;
 }
-.landing .land-text .land-icon{
+.landing .over-lay .land-text .land-icon{
     display: flex;
  align-items: center;
 }
-.landing .land-text .land-icon .icon-about{
+.landing .over-lay .land-text .land-icon .icon-about{
     margin-left: 1rem;
     line-height: 1.8;
     text-align: center;
     width: 30%;
 }
-.landing .land-text .land-icon i.fa-circle-play{
+.landing .over-lay .land-text .land-icon i.fa-circle-play{
     font-size: 2.5rem;
     width: 40px;
     height: 40px;
@@ -390,7 +390,7 @@ label:hover .one{
     position: relative;
 
 }
-.landing .land-text .land-icon i.fa-circle-play::after{
+.landing .over-lay .land-text .land-icon i.fa-circle-play::after{
     content: "";
     position: absolute;
     left: -9%;
@@ -421,7 +421,7 @@ label:hover .one{
         -o-transform: rotate(360deg);
 }
 }
-.landing .land-text .land-icon .icon-about p{
+.landing .over-lay .land-text .land-icon .icon-about p{
 color: var(--primary-color);
 letter-spacing: .1rem;
 font-size: .9rem;
@@ -429,7 +429,7 @@ font-weight: bold;
 text-transform: uppercase;
 position: relative;
 }
-.landing .land-text .land-icon .icon-about p::after{
+.landing .over-lay .land-text .land-icon .icon-about p::after{
  content: "";
  position: absolute;
  left: 20%;
@@ -439,7 +439,7 @@ position: relative;
  background-color: var(--gradient-color);
  opacity: .4;
 }
-.landing .land-text .land-icon .icon-about span{
+.landing .over-lay .land-text .land-icon .icon-about span{
     color: var(--main-color);
     font-size: .8rem;
     margin-right: 1.5rem;
@@ -450,7 +450,7 @@ position: relative;
         bottom: -12%;
         width: 50%;
     }
-    .landing .land-text{
+    .landing .over-lay .land-text{
         top: 60%;
         width: 60%;
     }
@@ -459,7 +459,7 @@ position: relative;
     .landing  img{
         width: 55%;
     }
-    .landing .land-text{
+    .landing .over-lay .land-text{
         top: 65%;
         width: 60%;
     }
@@ -473,22 +473,22 @@ position: relative;
         right: 0;
         bottom: -10%;
     }
-    .landing .land-text{
-        width: 60%;
+    .landing .over-lay .land-text{
+        width: 70%;
     }
-    .landing .land-text h3{
+    .landing .over-lay .land-text h3{
         font-size: .7rem;
     }
-    .landing .land-text h1{
+    .landing .over-lay .land-text h1{
         font-size: 2rem;
     }
-    .landing .land-text p{
+    .landing .over-lay .land-text p{
         width: 100%;
     }
-    .landing .land-text .land-icon .icon-about{
+    .landing .over-lay .land-text .land-icon .icon-about{
         width: 50%;
     }
-    .landing .land-text .land-icon .icon-about span{
+    .landing .over-lay .land-text .land-icon .icon-about span{
         margin-left: 0rem;
     }
 }
@@ -496,15 +496,18 @@ position: relative;
     .landing  img{
         width: 80%;
     }
-    .landing .land-text{
+    .landing .over-lay .land-text{
         top: 60%;
         left: 50%;
         width: 100%;
     }
-    .landing .land-text .land-icon .icon-about p{
+    .landing .over-lay .land-text h1{
+        font-size: 1.5rem;
+    }
+    .landing .over-lay .land-text .land-icon .icon-about p{
         font-size: .7rem;
     }
-    .landing .land-text .land-icon .icon-about span{
+    .landing .over-lay .land-text .land-icon .icon-about span{
         font-size: .6rem;
     }
 }
